@@ -1,0 +1,33 @@
+{
+  "name": "dogapi",
+  "version": "1.0.0",
+  "description": "Vue 3 Dog Breeds App using Dog CEO API",
+  "type": "module",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassyStudent/DogAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassyStudent/DogAPI/issues"
+  },
+  "homepage": "https://github.com/CassyStudent/DogAPI#readme",
+  "dependencies": {
+    "@tanstack/vue-query": "^5.100.10",
+    "axios": "^1.16.1",
+    "vue": "^3.5.34",
+    "vue-router": "^4.6.4"
+
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.21"
+  }
+}
